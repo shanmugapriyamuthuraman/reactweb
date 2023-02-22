@@ -1,0 +1,92 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+.navbar-brand{
+	font-size:2rem;
+	color:red;
+	}
+.btn1{
+	background-color:#DC7633;
+	color:white;
+	border:1px solid #F3823A;
+	padding-left:1rem;
+	padding-right:1rem;
+	font-size:1rem;
+}
+.btn{
+	color:white;
+}
+button{
+}
+.nav-item :hover{
+	color:#F3823A !important;
+}
+.btn{
+	background-color:#E85413;
+	color:white;
+}
+.btn:hover{
+	background-color: brown;
+	color:white;
+}
+.nav-link:hover{
+	color:#eb5d1e;
+}
+.head1{
+	padding-top:4rem;
+	font-size:3.3rem;
+	color:#6E2C00;
+}
+@media(min-width:1024px){
+	.head1{
+	padding-top:10rem;
+	}
+}
+.para1{
+	font-size:1.5rem;
+	color:#797D7F ;
+}
+.img1{
+	padding-top:6rem;
+	padding-bottom:5rem;
+}
+.page1{
+	background-color:#FDEDEC;
+	padding-bottom:2rem;
+	
+}
+.banerimg{
+	position:relative;
+	animation:square infinite 2s;
+	background-size:cover;
+}
+@keyframes square{
+	from{
+		top:0;
+	}
+	to{
+		top:30px;
+	}
+}
+.page2{
+	padding-top:3rem;
+	padding-bottom:3rem;
+}
+.btn{
+	background-color:#F3823A ;
+}
+.head2{
+	padding-top:2.5rem;
+}
+.para2{
+	color:#797D7F ;
+}
+.icon1{
+	font-size:3rem;
+	color:#F89050;
+}
+.subhead1{
+	font-size:1.3rem;
+}

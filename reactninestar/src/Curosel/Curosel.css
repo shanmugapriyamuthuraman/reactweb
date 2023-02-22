@@ -1,0 +1,12 @@
+.page7{
+	background-color:#F9EBEA;
+	padding-bottom:2rem;
+}
+.items{
+	width:50%;
+	margin:auto;
+	filter:grayscale(30%);
+}
+.items:hover{
+	filter:none;
+}

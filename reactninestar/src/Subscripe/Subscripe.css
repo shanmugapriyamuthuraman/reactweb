@@ -1,0 +1,33 @@
+.page9{
+	background-color:#F9EBEA;
+	padding-bottom:3rem;
+	padding-top:3rem;
+}
+.join{
+	text-align:center;
+	/* padding-top:3rem; */
+}
+.join h1{
+	font-size:2rem;
+	color:#472813;
+}
+.join input{
+	 width:40%; 
+	 padding:1rem;
+	  border:none;
+}
+.join a{
+	text-decoration:none;
+	color:white;
+	background-color:#eb5d1e;
+	padding:1rem;
+}
+.input-group{
+	width:40%;
+}
+.sub{
+	background-color:#EE6308;
+	color:white;
+	border:1px solid #EE6308;
+	padding:0.7rem;
+}

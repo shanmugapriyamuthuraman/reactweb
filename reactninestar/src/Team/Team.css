@@ -1,0 +1,84 @@
+.page6{
+	padding-bottom:4rem;
+	padding-top:5rem;
+}
+.team img{
+	width:100%;
+}
+.team{
+	position:relative;
+	width:100%;
+	margin-top:2rem;
+}
+.team:hover .team1{
+	opacity:1;
+	transition:1s ease;
+}
+.team1{
+	position:absolute;
+	background-color:#0000006e;
+	text-align:center;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0; 
+	padding:2rem;
+	 opacity:0;
+	width:100%;
+} 
+.team1 h3{
+	font-size:1rem;
+	margin-top:8rem;
+	color:white;
+}
+.team1 p{
+	color:white;
+}
+.team:hover .team2{
+	opacity:1;
+	transition:1s ease;
+}
+.team2{
+	position:absolute;
+	background-color:#0000006e;
+	top:0;
+	bottom:0;
+	width:15%;
+	left:0;
+	right:0;
+	opacity:0;
+}
+.team2 iconify-icon{
+	font-size:2rem;
+	padding:0.8rem;
+	color:white;
+}
+ @media(min-width:768px){
+	.team1 h3{
+		margin-top:8rem;
+	}
+.team2{
+	width:18%;
+}
+.team2 iconify-icon{
+	font-size:2rem;
+	padding:0.4rem;
+}
+ }
+@media(min-width:1024px){
+	.team1 h3{
+		margin-top:6rem;
+	}
+.team2{
+	width:20%;
+}
+.team2 iconify-icon{
+	font-size:1.5rem;
+	padding:0.4rem;
+}
+} 
+@media(min-width:1440px){
+	.team1 h3{
+		margin-top:12rem;
+	}
+}
